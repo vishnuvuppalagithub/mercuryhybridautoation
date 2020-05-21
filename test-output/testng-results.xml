@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-21T05:49:26Z" name="Default suite" finished-at="2020-05-21T05:49:27Z" duration-ms="70">
+    <groups>
+    </groups>
+    <test started-at="2020-05-21T05:49:26Z" name="Default test" finished-at="2020-05-21T05:49:27Z" duration-ms="70">
+      <class name="com.qa.mercury.tests.testing">
+        <test-method signature="t1()[pri:0, instance:com.qa.mercury.tests.testing@771a660]" started-at="2020-05-21T05:49:27Z" name="t1" finished-at="2020-05-21T05:49:27Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t1 -->
+      </class> <!-- com.qa.mercury.tests.testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
