@@ -2,7 +2,7 @@ package com.qa.mercury.tests;
 
 import org.testng.annotations.Test;
 
-///newfile
+//Pushing code to git hub using eclipse GUI
 
 public class testing {
 	
