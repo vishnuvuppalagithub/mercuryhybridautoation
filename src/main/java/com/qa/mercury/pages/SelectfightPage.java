@@ -27,10 +27,12 @@ public class SelectfightPage extends TestBase {
 	@FindBy(xpath="//html//body//div//table//tbody//tr//td[2]//table//tbody//tr[4]//td//table//tbody//tr//td[2]//table//tbody//tr[5]//td//form//table[1]//tbody//tr")
 	List<WebElement>  rowpath;
 	
+	
 	String start_xpath="//table//table//table//table//table[1]//tbody[1]//tr[";
 	String last_xpath="]//td[1]//font[1]//font[1]";
 	String rstart="//table//table//table//table//table[1]//tbody[1]//tr[";
 	String rend="]//td[1]//input";
+	
 	
 	@FindBy(name="reserveFlights")
 	WebElement reserve;
@@ -45,7 +47,9 @@ public class SelectfightPage extends TestBase {
 	}
 	
 	
-	public void clickhighfare(int rowcount,String  start_xpath, String last_xpath,String rstart, String rend )	
+	//public void clickhighfare(int rowcount,String  start_xpath, String last_xpath,String rstart, String rend )
+	//Select the highest fare in the towards jounrney
+	public void clickhighfare()	
 	{
 		int value = 0;
 		int xpathvalue = 0;
@@ -55,6 +59,7 @@ public class SelectfightPage extends TestBase {
 		String numbers=stringextract.replaceAll("[^0-9]", "");
 		//Convert String to integer
 		int prices=Integer.parseInt(numbers);
+		System.out.println("Priniting prices" + prices);
 		if (value<prices)
 		{
 			value=prices;
